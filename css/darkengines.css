@@ -1,0 +1,55 @@
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body {
+	width: 100%;
+	margin: auto;
+	font-family: verdana;
+	background-color: rgba(0,0,0,1.0);
+}
+.Container {
+	width: 100%;
+	background-color: rgba(0,0,0,1.0);
+	border-radius: 4px;
+	overflow:auto;
+}
+.Chat .Output {
+	margin: 8px;
+	background-color: rgba(250,250,250,1.0);
+	border-radius: 4px;
+	height: 80%;
+	overflow-y: auto;
+}
+.Chat .Input {
+	margin: 8px;
+	background-color: rgba(250,250,250,1.0);
+	border-radius: 4px;
+	padding: 2px 4px 2px 4px;
+}
+.Chat .Name {
+	margin: 8px auto 8px 8px;
+	background-color: rgba(250,250,250,1.0);
+	border-radius: 4px;
+	padding: 2px 4px 2px 4px;
+	width: 200px;
+}
+.Chat .Output .Name {
+	width: auto;
+	margin: 0;
+	background-color: inherit;
+	border-radius: 0px;
+	padding: 0;
+}
+.Chat .Output .Message {
+	padding: 0 0 0 8px;
+	font-size: 14px;
+}
+.Chat .Output .Item {
+	padding: 2px 4px 2px 4px;
+}
+.Chat .Output .Item:nth-child(2n+1) {
+	background-color: rgba(240, 240, 240, 1.0);
+}
