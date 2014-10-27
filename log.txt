@@ -1,0 +1,207 @@
+Running command: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\cordova\build.bat 
+Buildfile: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\build.xml
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at C:\android
+
+-setup:
+     [echo] Project Name: HelloCordova
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.1
+     [echo] Resolving Build Target for HelloCordova...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for HelloCordova...
+[dependency] Library dependencies:
+[dependency] 
+[dependency] ------------------
+[dependency] Ordered libraries:
+[dependency] 
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+
+nodeps:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at C:\android
+
+-setup:
+     [echo] Project Name: HelloCordova
+  [gettype] Project Type: Android Library
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.1
+     [echo] Resolving Build Target for HelloCordova...
+[gettarget] Project Target:   Android 4.4.2
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+     [echo] ----------
+     [echo] Resolving Dependencies for HelloCordova...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency] 
+[dependency] ------------------
+
+-code-gen:
+[mergemanifest] Found Deleted Target File
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found new input file
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+
+-compile:
+     [echo] Creating library output jar file...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+     [echo] Library project: do not convert bytecode...
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\res
+   [crunch] To destination dir: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [echo] Library project: do not package resources...
+
+-package:
+     [echo] Library project: do not package apk...
+
+-post-package:
+
+-do-debug:
+     [echo] Library project: do not create apk...
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\build.prop
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\build.prop
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\build.prop
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\build.prop
+
+-post-build:
+
+debug:
+
+-code-gen:
+[mergemanifest] Found Deleted Target File
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Found Deleted Target File
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] No need to generate new BuildConfig.
+
+-pre-compile:
+     [echo] Set jars path to: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\classes.jar
+
+-compile:
+    [javac] Compiling 2 source files to C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\classes
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\classes
+      [dex] input: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\classes.jar
+      [dex] Using Pre-Dexed classes-092c09415987fcbd8d839cdee094d9d6.jar <- C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build\classes.jar
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\classes.dex...
+       [dx] Merged dex A (7 defs/2,2KiB) with dex B (209 defs/317,1KiB). Result is 216 defs/389,0KiB. Took 0,1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\res
+   [crunch] To destination dir: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\res
+   [crunch] Crunched 0 PNG files to update cache
+
+-package-resources:
+     [aapt] Found Deleted Target File
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Found Deleted Target File
+[apkbuilder] Creating HelloCordova-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\HelloCordova-debug.apk
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\build.prop
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\build.prop
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\build.prop
+[propertyfile] Updating property file: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\build.prop
+
+-post-build:
+     [move] Moving 1 file to C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build
+     [move] Moving 1 file to C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\CordovaLib\ant-build
+
+debug:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Using apk: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\android\ant-build\HelloCordova-debug-unaligned.apk
+Running command: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\windows\cordova\build.bat 
+MSBuildToolsPath: C:\Program Files (x86)\MSBuild\12.0\bin\amd64\
+Le terme ®ÿUnblock-Fileÿ¯ n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme ex‚cutable. V‚rifiez l'orthographe du nom, ou si un chemin d'accŠs existe, v‚rifiez que le chemin d'accŠs est correct et r‚essayez.
+Au niveau de ligneÿ: 1 CaractŠreÿ: 13
++ Unblock-File <<<<  "C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\windows\cordova\lib\ApplyPlatformConfig.ps1"
+    + CategoryInfo          : ObjectNotFound: (Unblock-File:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Running command: C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\windows\cordova\run.bat --emulator
+MSBuildToolsPath: C:\Program Files (x86)\MSBuild\12.0\bin\amd64\
+Le terme ®ÿUnblock-Fileÿ¯ n'est pas reconnu comme nom d'applet de commande, fonction, fichier de script ou programme ex‚cutable. V‚rifiez l'orthographe du nom, ou si un chemin d'accŠs existe, v‚rifiez que le chemin d'accŠs est correct et r‚essayez.
+Au niveau de ligneÿ: 1 CaractŠreÿ: 13
++ Unblock-File <<<<  "C:\Users\Quicksort\Desktop\cordova\darkengines.chat.core\platforms\windows\cordova\lib\ApplyPlatformConfig.ps1"
+    + CategoryInfo          : ObjectNotFound: (Unblock-File:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

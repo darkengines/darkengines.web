@@ -1,0 +1,69 @@
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+body {
+	width: 1024px;
+	margin: auto;
+	font-family: verdana;
+}
+.Container {
+	width: 1024px;
+	margin: 226px auto 226px auto;
+}
+.Heart {
+	width: 226px;
+	height: 226px;
+	margin: auto;
+	-moz-animation: 3s ease 0s normal none infinite swing;
+    -moz-transform-origin: center top;
+    -webkit-animation:swing 3s infinite ease-in-out;
+    -webkit-transform-origin:top;
+	position: relative;
+	overflow: auto;
+}
+.Heart .Back {
+	background-image: url(../image/heart256.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.Heart .Content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin: 70px 0 0 0;
+	z-index: 10;
+}
+.Heart .Content .Name {
+	font-size: 34px;
+}
+.Heart .Content .Timer {
+	text-align: center;
+	font-size: 16px;
+}
+.Heart .Progress {
+	background-color: red;
+	position: absolute;
+	bottom: 4px;
+	left: 4px;
+	width: 222px;
+	height: 0%;
+	min-height: 8%;
+	max-height: 94%;
+}
+@-moz-keyframes swing{
+    0%{-moz-transform:rotate(-6deg)}
+    50%{-moz-transform:rotate(3deg)}
+    100%{-moz-transform:rotate(-6deg)}
+}
+@-webkit-keyframes swing{
+    0%{-webkit-transform:rotate(-6deg)}
+    50%{-webkit-transform:rotate(3deg)}
+    100%{-webkit-transform:rotate(-6deg)}
+}

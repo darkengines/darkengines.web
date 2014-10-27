@@ -1,0 +1,118 @@
+* {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	font-family: verdana;
+}
+.Container {
+	width: 100%;
+	overflow:auto;
+	background-color: rgba(0,0,0,1.0);
+	position: absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+}
+.Container .Box {
+	margin: 0 8px 8px 8px;
+	background-color: rgba(250,250,250,1.0);
+	padding: 2px 4px 2px 4px;
+	-moz-box-shadow: inset 0px 0px 1px 2px #000000;
+	-webkit-box-shadow: inset 0px 0px 1px 2px #000000;
+	-o-box-shadow: inset 0px 0px 1px 2px #000000;
+	box-shadow: inset 0px 0px 1px 2px #000000;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=NaN, Strength=1);
+}
+.Container .Box:first-child {
+	margin-top: 8px
+}
+.Chat {
+	display: flex;
+	flex-flow: column wrap;
+	top:0;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	position: absolute;
+	flex-wrap: nowrap;
+}
+.Chat .Output {	
+	height: 80%;
+	overflow-y: auto;
+	flex-grow: 1;
+}
+.CHat .Output .Item {
+	position: relative;
+	overflow-y: hidden;
+}
+.Chat .Input {
+	max-height: 64px;
+	overflow-y: auto;;
+	position: relative;
+	overflow-x: hidden;
+	min-height: 26px;
+}
+.Chat .Name {
+	width: 200px;
+	max-height: 26px;
+	min-height: 26px;
+}
+.Chat .Output .Name {
+	width: auto;
+	margin: 0;
+	background-color: inherit;
+	border-radius: 0px;
+	padding: 0;
+}
+
+.Chat .Output .Message {
+	padding: 0 0 0 8px;
+	font-size: 14px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 256px;
+	position: relative;
+	border-left: solid 2px;
+	-moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+    transition: 1s;
+}
+.Chat .Output .Message.Full {
+	max-height: none;
+	height: auto;
+	overflow-y: auto;
+}
+.Chat .Output .Message .Expand {
+	height: 32px;
+	width: 32px;
+	background-size: 32px 32px;
+	position: absolute;
+	background-image: url('../img/open.svg');
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	right: 8px;
+	top: 220px;
+}
+.Chat .Output .Message.Full .Expand {
+	top: auto;
+	bottom: 8px;
+}
+.Svg {
+	fill: rgb(0, 255, 10);
+}
+.Chat .Output .Message .Expand:hover {
+	fill: #94d31b;
+}
+.Chat .Output .Item {
+	padding: 2px 4px 2px 4px;
+}
+.Chat .Output .Item:nth-child(2n+1) {
+	background-color: rgba(240, 240, 240, 1.0);
+}
